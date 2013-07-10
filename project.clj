@@ -12,23 +12,11 @@
                  [org.jboss.netty/netty "3.2.8.Final"]
                  [com.google.guava/guava "14.0.1"]
                  [org.slf4j/slf4j-log4j12 "1.6.6"]
-                 ;;<scope>test</scope>
-                 ;;<groupId>joda-time</groupId>
-                 ;;<artifactId>joda-time</artifactId>
-                 ;;<version>2.1</version>
-                 ;;<scope>test</scope>
                 ]
 
   :source-paths ["src"]
 
-  ;;:plugins [[lein-maven "0.1.0"]]
-  ;;:middleware [leiningen.mvn/maven-checkouts]
-  ;;:java-source-paths ["../nCoAP"]
-
   :java-source-paths ["../nCoAP/src/main/java"]
-
-  ;;:plugins [[lein-junit "1.0.3"]]
-  ;;:junit ["test/java"]
 
   :repositories {"typesafe" {:url "http://repo.typesafe.com/typesafe/releases"
                              :snapshots false
